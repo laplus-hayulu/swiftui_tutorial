@@ -39,6 +39,9 @@
 		816B0DE12768645F00C2D139 /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B0DE02768645F00C2D139 /* RotatedBadgeSymbol.swift */; };
 		816B0DE3276864A700C2D139 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B0DE2276864A700C2D139 /* Badge.swift */; };
 		816B0DE5276869DB00C2D139 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B0DE4276869DB00C2D139 /* Hike.swift */; };
+		816B0DE727686BD900C2D139 /* GraphCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B0DE627686BD900C2D139 /* GraphCapsule.swift */; };
+		816B0DE927686BF700C2D139 /* HikeGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B0DE827686BF700C2D139 /* HikeGraph.swift */; };
+		816B0DEB27686D3600C2D139 /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B0DEA27686D3600C2D139 /* HikeDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +78,9 @@
 		816B0DE02768645F00C2D139 /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
 		816B0DE2276864A700C2D139 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		816B0DE4276869DB00C2D139 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
+		816B0DE627686BD900C2D139 /* GraphCapsule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphCapsule.swift; sourceTree = "<group>"; };
+		816B0DE827686BF700C2D139 /* HikeGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeGraph.swift; sourceTree = "<group>"; };
+		816B0DEA27686D3600C2D139 /* HikeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,8 @@
 		816B0D9D2763377600C2D139 /* Landmark */ = {
 			isa = PBXGroup;
 			children = (
+				816B0DE627686BD900C2D139 /* GraphCapsule.swift */,
+				816B0DE827686BF700C2D139 /* HikeGraph.swift */,
 				816B0DDC27685C0000C2D139 /* HexagonParameters.swift */,
 				816B0D9E2763377600C2D139 /* LandmarkApp.swift */,
 				816B0DCD27633CCC00C2D139 /* Models */,
@@ -123,6 +131,7 @@
 				816B0DDE276863CB00C2D139 /* BadgeSymbol.swift */,
 				816B0DE2276864A700C2D139 /* Badge.swift */,
 				816B0DE02768645F00C2D139 /* RotatedBadgeSymbol.swift */,
+				816B0DEA27686D3600C2D139 /* HikeDetail.swift */,
 			);
 			path = Landmark;
 			sourceTree = "<group>";
@@ -253,10 +262,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				816B0DDD27685C0000C2D139 /* HexagonParameters.swift in Sources */,
+				816B0DE927686BF700C2D139 /* HikeGraph.swift in Sources */,
 				816B0DE3276864A700C2D139 /* Badge.swift in Sources */,
 				816B0DA12763377600C2D139 /* LandmarkDetail.swift in Sources */,
+				816B0DE727686BD900C2D139 /* GraphCapsule.swift in Sources */,
 				816B0DD127633EE200C2D139 /* Data.swift in Sources */,
 				816B0DDB2768577800C2D139 /* BadgeBackground.swift in Sources */,
+				816B0DEB27686D3600C2D139 /* HikeDetail.swift in Sources */,
 				816B0DD72763463A00C2D139 /* SceneDelegate.swift in Sources */,
 				816B0DE5276869DB00C2D139 /* Hike.swift in Sources */,
 				816B0DE12768645F00C2D139 /* RotatedBadgeSymbol.swift in Sources */,
