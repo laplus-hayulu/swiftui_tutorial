@@ -48,6 +48,7 @@
 		816B0DF92768846C00C2D139 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B0DF82768846C00C2D139 /* CategoryItem.swift */; };
 		816B0DFD27688A4700C2D139 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B0DFC27688A4700C2D139 /* ContentView.swift */; };
 		816B0E0027688D8A00C2D139 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B0DFF27688D8A00C2D139 /* Profile.swift */; };
+		816B0E022768E05800C2D139 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B0E012768E05800C2D139 /* ProfileHost.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -93,6 +94,7 @@
 		816B0DF82768846C00C2D139 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
 		816B0DFC27688A4700C2D139 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../ContentView.swift; sourceTree = "<group>"; };
 		816B0DFF27688D8A00C2D139 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		816B0E012768E05800C2D139 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -247,6 +249,7 @@
 			isa = PBXGroup;
 			children = (
 				816B0DFF27688D8A00C2D139 /* Profile.swift */,
+				816B0E012768E05800C2D139 /* ProfileHost.swift */,
 			);
 			path = Profiles;
 			sourceTree = "<group>";
@@ -340,6 +343,7 @@
 				816B0DFD27688A4700C2D139 /* ContentView.swift in Sources */,
 				816B0DE927686BF700C2D139 /* HikeGraph.swift in Sources */,
 				816B0DE3276864A700C2D139 /* Badge.swift in Sources */,
+				816B0E022768E05800C2D139 /* ProfileHost.swift in Sources */,
 				816B0DA12763377600C2D139 /* LandmarkDetail.swift in Sources */,
 				816B0DE727686BD900C2D139 /* GraphCapsule.swift in Sources */,
 				816B0DD127633EE200C2D139 /* Data.swift in Sources */,
