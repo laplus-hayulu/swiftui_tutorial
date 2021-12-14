@@ -38,6 +38,7 @@
 		816B0DDF276863CB00C2D139 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B0DDE276863CB00C2D139 /* BadgeSymbol.swift */; };
 		816B0DE12768645F00C2D139 /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B0DE02768645F00C2D139 /* RotatedBadgeSymbol.swift */; };
 		816B0DE3276864A700C2D139 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B0DE2276864A700C2D139 /* Badge.swift */; };
+		816B0DE5276869DB00C2D139 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B0DE4276869DB00C2D139 /* Hike.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,7 @@
 		816B0DDE276863CB00C2D139 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
 		816B0DE02768645F00C2D139 /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
 		816B0DE2276864A700C2D139 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		816B0DE4276869DB00C2D139 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 				816B0DCE27633CE700C2D139 /* Landmark.swift */,
 				816B0DD027633EE200C2D139 /* Data.swift */,
 				816B0DD827648F6500C2D139 /* UserData.swift */,
+				816B0DE4276869DB00C2D139 /* Hike.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 				816B0DD127633EE200C2D139 /* Data.swift in Sources */,
 				816B0DDB2768577800C2D139 /* BadgeBackground.swift in Sources */,
 				816B0DD72763463A00C2D139 /* SceneDelegate.swift in Sources */,
+				816B0DE5276869DB00C2D139 /* Hike.swift in Sources */,
 				816B0DE12768645F00C2D139 /* RotatedBadgeSymbol.swift in Sources */,
 				816B0DDF276863CB00C2D139 /* BadgeSymbol.swift in Sources */,
 				816B0DCC27633AC600C2D139 /* MapView.swift in Sources */,
