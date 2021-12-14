@@ -1,21 +1,23 @@
-//
-//  CategoryHome.swift
-//  Landmark
-//
-//  Created by 辻大地 on 2021/12/14.
-//
-
 import SwiftUI
-
+ 
 struct CategoryHome: View {
     @EnvironmentObject var userData: UserData
+    
     var body: some View {
-        NavigationView {
+        NavigationView{
             List {
-                            ForEach(userData.categories.keys.sorted(), id: \.self) { key in
-                                Text(key)
-                            }
-                        }
+                userData.features[0].image
+                    .resizable()
+                    .scaledToFill()
+                    .frame(height: 200)
+                    .clipped()
+                    .listRowInsets(EdgeInsets())
+                
+                ForEach(userData.categories.keys.sorted(), id: \.self) { key in
+                    CategoryRow(categoryName: key, items: userData.categories[key]!)
+                }
+                .listRowInsets(EdgeInsets())
+            }
             .navigationTitle("Featured")
         }
     }

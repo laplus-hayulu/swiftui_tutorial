@@ -46,6 +46,7 @@
 		816B0DF5276871A900C2D139 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B0DF4276871A900C2D139 /* CategoryHome.swift */; };
 		816B0DF72768827E00C2D139 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B0DF62768827E00C2D139 /* CategoryRow.swift */; };
 		816B0DF92768846C00C2D139 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B0DF82768846C00C2D139 /* CategoryItem.swift */; };
+		816B0DFD27688A4700C2D139 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B0DFC27688A4700C2D139 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,6 +90,7 @@
 		816B0DF4276871A900C2D139 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		816B0DF62768827E00C2D139 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		816B0DF82768846C00C2D139 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
+		816B0DFC27688A4700C2D139 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +197,7 @@
 		816B0DEF27686F3700C2D139 /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				816B0DFC27688A4700C2D139 /* ContentView.swift */,
 				816B0DA02763377600C2D139 /* LandmarkDetail.swift */,
 				816B0DD22763403700C2D139 /* LandmarkRow.swift */,
 				816B0DD42763423C00C2D139 /* LandmarkList.swift */,
@@ -323,6 +326,7 @@
 			files = (
 				816B0DDD27685C0000C2D139 /* HexagonParameters.swift in Sources */,
 				816B0DF5276871A900C2D139 /* CategoryHome.swift in Sources */,
+				816B0DFD27688A4700C2D139 /* ContentView.swift in Sources */,
 				816B0DE927686BF700C2D139 /* HikeGraph.swift in Sources */,
 				816B0DE3276864A700C2D139 /* Badge.swift in Sources */,
 				816B0DA12763377600C2D139 /* LandmarkDetail.swift in Sources */,
