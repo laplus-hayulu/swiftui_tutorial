@@ -1,8 +1,8 @@
-//
-//  UserData.swift
-//  Landmark
-//
-//  Created by 辻大地 on 2021/12/11.
-//
+import UIKit
+import SwiftUI
+import Combine
 
-import Foundation
+final class UserData: ObservableObject {
+    @Published var showFavoritesOnly = false
+    @Published var landmarks = landmarkData
+}
