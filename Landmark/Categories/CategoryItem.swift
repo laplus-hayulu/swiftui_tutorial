@@ -1,20 +1,23 @@
-//
-//  CategoryItem.swift
-//  Landmark
-//
-//  Created by 辻大地 on 2021/12/14.
-//
-
 import SwiftUI
 
 struct CategoryItem: View {
+    var landmark: Landmark
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .leading) {
+            landmark.image
+                .resizable()
+                .frame(width: 155, height: 155)
+                .cornerRadius(5)
+            Text(landmark.name)
+                .font(.caption)
+        }
+        .padding(.leading, 15)
     }
 }
 
 struct CategoryItem_Previews: PreviewProvider {
     static var previews: some View {
-        CategoryItem()
+        CategoryItem(landmark: UserData().landmarks[0])  // 仮で一番目の観光地
     }
 }
