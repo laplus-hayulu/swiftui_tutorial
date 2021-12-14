@@ -42,6 +42,7 @@
 		816B0DE727686BD900C2D139 /* GraphCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B0DE627686BD900C2D139 /* GraphCapsule.swift */; };
 		816B0DE927686BF700C2D139 /* HikeGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B0DE827686BF700C2D139 /* HikeGraph.swift */; };
 		816B0DEB27686D3600C2D139 /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B0DEA27686D3600C2D139 /* HikeDetail.swift */; };
+		816B0DED27686D8800C2D139 /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B0DEC27686D8800C2D139 /* HikeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +82,7 @@
 		816B0DE627686BD900C2D139 /* GraphCapsule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphCapsule.swift; sourceTree = "<group>"; };
 		816B0DE827686BF700C2D139 /* HikeGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeGraph.swift; sourceTree = "<group>"; };
 		816B0DEA27686D3600C2D139 /* HikeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
+		816B0DEC27686D8800C2D139 /* HikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 				816B0DE2276864A700C2D139 /* Badge.swift */,
 				816B0DE02768645F00C2D139 /* RotatedBadgeSymbol.swift */,
 				816B0DEA27686D3600C2D139 /* HikeDetail.swift */,
+				816B0DEC27686D8800C2D139 /* HikeView.swift */,
 			);
 			path = Landmark;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				816B0DE12768645F00C2D139 /* RotatedBadgeSymbol.swift in Sources */,
 				816B0DDF276863CB00C2D139 /* BadgeSymbol.swift in Sources */,
 				816B0DCC27633AC600C2D139 /* MapView.swift in Sources */,
+				816B0DED27686D8800C2D139 /* HikeView.swift in Sources */,
 				816B0DD52763423C00C2D139 /* LandmarkList.swift in Sources */,
 				816B0D9F2763377600C2D139 /* LandmarkApp.swift in Sources */,
 				816B0DCA2763399300C2D139 /* CircleImage.swift in Sources */,
