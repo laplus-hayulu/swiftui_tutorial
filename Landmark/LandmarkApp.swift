@@ -12,7 +12,7 @@ struct LandmarkApp: App {
     var body: some Scene {
         WindowGroup {
             LandmarkList()
-                .environmentObject(UserData())
+                .environmentObject(UserData())g
         }
     }
 }
