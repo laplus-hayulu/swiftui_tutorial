@@ -1,8 +1,23 @@
-//
-//  Hike.swift
-//  Landmark
-//
-//  Created by 辻大地 on 2021/12/14.
-//
+import SwiftUI
 
-import Foundation
+struct Hike: Codable, Hashable, Identifiable {
+    var name:     String
+    var id:       Int
+    var distance: Double
+    var observations: [Observation]
+    
+    static var formatter = LengthFormatter()
+    
+    var distanceText: String {
+        return Hike.formatter
+            .string(fromValue: distance, unit: .kilometer)
+    }
+    
+    struct Observation: Codable, Hashable {
+        var distanceFromStart: Double
+        
+        var elevation: Range<Double>
+        var pace: Range<Double>
+        var heartRate: Range<Double>
+    }
+}
