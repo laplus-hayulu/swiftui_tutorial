@@ -44,6 +44,7 @@
 		816B0DEB27686D3600C2D139 /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B0DEA27686D3600C2D139 /* HikeDetail.swift */; };
 		816B0DED27686D8800C2D139 /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B0DEC27686D8800C2D139 /* HikeView.swift */; };
 		816B0DF5276871A900C2D139 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B0DF4276871A900C2D139 /* CategoryHome.swift */; };
+		816B0DF72768827E00C2D139 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B0DF62768827E00C2D139 /* CategoryRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -85,6 +86,7 @@
 		816B0DEA27686D3600C2D139 /* HikeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
 		816B0DEC27686D8800C2D139 /* HikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
 		816B0DF4276871A900C2D139 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
+		816B0DF62768827E00C2D139 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,6 +229,7 @@
 			isa = PBXGroup;
 			children = (
 				816B0DF4276871A900C2D139 /* CategoryHome.swift */,
+				816B0DF62768827E00C2D139 /* CategoryRow.swift */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 				816B0DD72763463A00C2D139 /* SceneDelegate.swift in Sources */,
 				816B0DE5276869DB00C2D139 /* Hike.swift in Sources */,
 				816B0DE12768645F00C2D139 /* RotatedBadgeSymbol.swift in Sources */,
+				816B0DF72768827E00C2D139 /* CategoryRow.swift in Sources */,
 				816B0DDF276863CB00C2D139 /* BadgeSymbol.swift in Sources */,
 				816B0DCC27633AC600C2D139 /* MapView.swift in Sources */,
 				816B0DED27686D8800C2D139 /* HikeView.swift in Sources */,
