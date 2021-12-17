@@ -2,6 +2,7 @@ import SwiftUI
  
 struct CategoryHome: View {
     @EnvironmentObject var userData: UserData
+    @State private var showingProfile = false
     
     var body: some View {
         NavigationView{
@@ -18,7 +19,18 @@ struct CategoryHome: View {
                 }
                 .listRowInsets(EdgeInsets())
             }
+            .listStyle(InsetListStyle())
             .navigationTitle("Featured")
+            .toolbar {  // NavigationのToolbarにビューを追加
+                            Button(action: { showingProfile.toggle() }) {
+                                Image(systemName: "person.crop.circle")
+                                    .accessibilityLabel("User Profile")
+                            }
+                        }
+                        .sheet(isPresented: $showingProfile) {  // showingProfile == trueならばシートを開く
+                            ProfileHost()
+                                .environmentObject(userData)
+                        }
         }
     }
 }

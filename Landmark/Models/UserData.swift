@@ -7,5 +7,7 @@ final class UserData: ObservableObject {
     @Published var landmarks = landmarkData
     @Published var categories = categoriesData
     @Published var features = featuresData
+    @Published var hikes = hikeData
+    
 }
 
