@@ -8,6 +8,6 @@ final class UserData: ObservableObject {
     @Published var categories = categoriesData
     @Published var features = featuresData
     @Published var hikes = hikeData
-    
+    @Published var profile = Profile.default
 }
 
