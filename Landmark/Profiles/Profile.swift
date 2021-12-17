@@ -10,7 +10,7 @@ import Foundation
 
 struct Profile {
     var username: String // ユーザー名
-    var prefersNotificationns = true // 通知ON/OFF
+    var prefersNotifications = true // 通知ON/OFF
     var seasonalPhoto = Season.winter // 季節の写真
     var goalDate = Date() // ゴールした日
     

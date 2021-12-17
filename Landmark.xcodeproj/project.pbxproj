@@ -49,6 +49,7 @@
 		816B0DFD27688A4700C2D139 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B0DFC27688A4700C2D139 /* ContentView.swift */; };
 		816B0E0027688D8A00C2D139 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B0DFF27688D8A00C2D139 /* Profile.swift */; };
 		816B0E022768E05800C2D139 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B0E012768E05800C2D139 /* ProfileHost.swift */; };
+		816B0E042769708A00C2D139 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B0E032769708A00C2D139 /* ProfileSummary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -95,6 +96,7 @@
 		816B0DFC27688A4700C2D139 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../ContentView.swift; sourceTree = "<group>"; };
 		816B0DFF27688D8A00C2D139 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		816B0E012768E05800C2D139 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
+		816B0E032769708A00C2D139 /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,6 +252,7 @@
 			children = (
 				816B0DFF27688D8A00C2D139 /* Profile.swift */,
 				816B0E012768E05800C2D139 /* ProfileHost.swift */,
+				816B0E032769708A00C2D139 /* ProfileSummary.swift */,
 			);
 			path = Profiles;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 				816B0DD127633EE200C2D139 /* Data.swift in Sources */,
 				816B0DDB2768577800C2D139 /* BadgeBackground.swift in Sources */,
 				816B0DEB27686D3600C2D139 /* HikeDetail.swift in Sources */,
+				816B0E042769708A00C2D139 /* ProfileSummary.swift in Sources */,
 				816B0DF92768846C00C2D139 /* CategoryItem.swift in Sources */,
 				816B0DD72763463A00C2D139 /* SceneDelegate.swift in Sources */,
 				816B0DE5276869DB00C2D139 /* Hike.swift in Sources */,
